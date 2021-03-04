@@ -14,7 +14,7 @@ export default function Login() {
             </div>
             <div className={styles.button}>
                 <input type="text" placeholder="Digite seu nome"/>
-                <button><FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></button>
+                <button><FontAwesomeIcon icon={faArrowRight} spin/></button>
             </div>
         </div>
     )
