@@ -1,13 +1,20 @@
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import styles from '../styles/components/Login.module.css'
 
 export default function Login() {
     return (
         <div className={styles.container}>
-            <h1>LUPUS</h1>
-            <p>Bem-vindo</p>
-            <div>
-                <input type="text"/>
-                <button type="button">Login</button>
+            <img src="lupus.svg" alt="Lupus"/>
+            <h2>Bem-vindo</h2>
+            <div className={styles.github}>
+                <img src="github.svg" alt="Lupus"/>
+                <p>Faça login com seu Github para começar <br/>ou entre como visitante</p>
+            </div>
+            <div className={styles.button}>
+                <input type="text" placeholder="Digite seu nome"/>
+                <button><FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></button>
             </div>
         </div>
     )

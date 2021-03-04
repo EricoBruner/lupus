@@ -16,4 +16,9 @@
     grid-template-columns: 1fr 1fr;
     gap: 6.35rem;
     align-content: center;
+    align-items: center;
+}
+
+.container img {
+    width: 100%;
 }

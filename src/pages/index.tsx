@@ -9,6 +9,8 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         Login | lupus
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet"/>
       </Head>
 
       <section>

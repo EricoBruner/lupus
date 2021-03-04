@@ -1,7 +1,60 @@
 .container { 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    
+}
+
+.container img {
+    width: 15rem;
+    margin-bottom: 3rem;
+    
+}
+
+.github {
+    display: flex;
+    flex-direction: row;
+}
+
+.github img {
+    width: 2.2rem;
+    margin-right: 1rem;
+}
+.container p {
+    color: #909090;
+}
+
+.container h2 {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;    
+    font-weight: 400;
+}
+
+.button {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.button input{
+    width: 17rem;
+    height: 4rem;
+    background: linear-gradient(90deg, #FFFFFF 0%, #909090 100%);
+    border-radius: 5px 0px 0px 5px;
+    border: 0;
+    padding: 1.3rem;
+}
+
+.button input::placeholder {
+    color: #000000;
+    margin-left: 3rem;
+  }
+
+.button button {
+    width: 4rem;
+    height: 4rem;
+    background: #222222;
+    border: 1px solid #909090;
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+    padding: 1.3rem;
+    color: #FFFFFF;
 }
