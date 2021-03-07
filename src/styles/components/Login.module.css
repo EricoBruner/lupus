@@ -10,12 +10,12 @@
     
 }
 
-.github {
+.google {
     display: flex;
     flex-direction: row;
 }
 
-.github img {
+.google img {
     width: 2.2rem;
     margin-right: 1rem;
 }

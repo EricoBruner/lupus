@@ -8,13 +8,13 @@ export default function Login() {
         <div className={styles.container}>
             <img src="lupus.svg" alt="Lupus"/>
             <h2>Bem-vindo</h2>
-            <div className={styles.github}>
-                <img src="github.svg" alt="Lupus"/>
-                <p>Faça login com seu Github para começar <br/>ou entre como visitante</p>
+            <div className={styles.google}>
+                <img src="icon-google.svg" alt="Lupus"/>
+                <p>Faça login com o Google para começar <br/>ou entre como visitante.</p>
             </div>
             <div className={styles.button}>
                 <input type="text" placeholder="Digite seu nome"/>
-                <button><FontAwesomeIcon icon={faArrowRight} spin/></button>
+                <button><FontAwesomeIcon icon={faArrowRight}/></button>
             </div>
         </div>
     )
